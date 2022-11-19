@@ -58,10 +58,22 @@ h1 {
 /* MARGİN ÖZELLİKLERİ */
 div {
     /* Genişlik */ 
-    width: 75px;    
+    width:300px  ;    
     /* Yükseklik */
-    height: 100px;
+    height: 200px;
     /*Arka plan rengi*/
     background-color: yellowgreen;
+    margin-top:100px; 
+    margin-left:100px; 
+    margin: 100px;
+}
+/*Padding Özellikleri */
+p { 
 
+    padding-top:30px;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    /* PADDİNG TEK YAZILIŞ*/ 
+    padding: 100px;
 }
