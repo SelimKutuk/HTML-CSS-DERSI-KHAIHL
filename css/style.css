@@ -54,3 +54,14 @@ h1 {
     /* Kenar yuvarlayıcı */ 
     border-radius: 7px;
 }
+
+/* MARGİN ÖZELLİKLERİ */
+div {
+    /* Genişlik */ 
+    width: 75px;    
+    /* Yükseklik */
+    height: 100px;
+    /*Arka plan rengi*/
+    background-color: yellowgreen;
+
+}
