@@ -1,0 +1,56 @@
+h1 {
+    /*Renk Özelliği*/
+    /* Css te yorum satırı*/
+    color: rgb(245, 238, 232);
+    /*Arkaplan Renk Özelliği*/
+    background-color: #000;
+}
+
+/*id*/
+#heading-1 {
+    color: blue;
+    background-color: yellow;
+}
+
+/*class*/
+.heading-2 {
+    color: red;
+    background-color: bisque;
+}
+
+/* p {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: blue;
+
+
+} */
+
+#font-text {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#border-text { 
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    /* Sınır Çizgileri*/ 
+    border-top: 5px black dotted;
+    border-left: 5px brown solid;
+    border-right: 5px red solid;
+    border-bottom: 5px blue dashed;
+}
+
+.border-radius { 
+    color: green;
+    font-size:30px; 
+    /* Hepsini bir noktada yazabiliriz */
+    border: 5px black solid;
+    /* Kenar yuvarlayıcı */ 
+    border-radius: 7px;
+}
