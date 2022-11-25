@@ -56,17 +56,7 @@ h1 {
 }
 
 /* MARGİN ÖZELLİKLERİ */
-div {
-    /* Genişlik */ 
-    width:300px  ;    
-    /* Yükseklik */
-    height: 200px;
-    /*Arka plan rengi*/
-    background-color: yellowgreen;
-    margin-top:100px; 
-    margin-left:100px; 
-    margin: 100px;
-}
+
 /*Padding Özellikleri */
 p { 
 
@@ -76,4 +66,28 @@ p {
     padding-bottom: 10px;
     /* PADDİNG TEK YAZILIŞ*/ 
     padding: 100px;
+}
+.box-1 { 
+     /* Genişlik */ 
+     width:300px  ;    
+     /* Yükseklik */
+     height: 500px;
+     /*Arka plan rengi*/
+     background-color: yellowgreen;
+ 
+     border: 5px black solid;
+     overflow:hidden;
+     text-overflow: ellipsis;
+     display: inline-block;
+}
+.box-2 { 
+    width: 300px;
+    height: 500px;
+    background-color: bisque;
+    border: 5px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    /*float feauters*/
+    float: right;
 }
